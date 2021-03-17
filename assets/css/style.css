@@ -1,0 +1,228 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  transition-timing-function: ease-in-out;
+}
+a {
+  text-decoration: none;
+  outline: none;
+}
+body {
+  background-color: #f7f7f7;
+}
+.header {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+
+  background-color: white;
+  height: 70px;
+ 
+  padding: 20px;
+  top: 0;
+  right: 0;
+  left: 0;
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.41);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.41);
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.41);
+}
+
+.menu {
+  
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+.ul-link {
+  color: black;
+  padding: 20px;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.logo {
+}
+.logo span {
+  display: inline-block;
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 7px;
+  margin: 5px 0;
+}
+.logo span:nth-child(odd) {
+  background: #ef5a42;
+}
+.logo span:nth-child(even) {
+  background: #f8b763;
+}
+input[type="text"] {
+  border: none;
+  font-style: italic;
+  color: #9e9c9c;
+  outline: none;
+  width: 170px;
+  overflow: hidden;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.aside-post {
+  width: 300px;
+  margin: 100px 100px 50px 50px;
+  border: 1px solid white;
+  -webkit-box-shadow: 3px 6px 5px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 3px 6px 5px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 3px 6px 5px 0px rgba(0, 0, 0, 0.15);
+  background: white;
+}
+.aside-text {
+  text-align: center;
+  color: #573a44;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  border: 2px solid #f8b763;
+  -webkit-box-shadow: 7px 6px 0px -4px rgba(248, 183, 99, 0.92);
+  -moz-box-shadow: 7px 6px 0px -4px rgba(248, 183, 99, 0.92);
+  box-shadow: 7px 6px 0px -4px rgba(248, 183, 99, 0.92);
+  padding: 10px;
+  margin: 20px 15px;
+}
+.small-img {
+  width: 70px;
+  height: 50px;
+}
+.aside-list-one {
+  margin: 15px;
+}
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #cad7eb;
+}
+.list-one {
+  font-size: 15px;
+  color: #cad7eb;
+  font-style: italic;
+}
+.list-one-link {
+  color: #7b9264;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 10px;
+}
+.image-link {
+  display: inline-block;
+  position: relative;
+  margin: 10px;
+  border-top: 1px solid grey;
+  padding-top: 15px;
+  width: 270px;
+}
+
+.aside-link-text {
+  color: grey;
+  padding: 10px;
+}
+.aside-form{
+  margin: 30px 20px;
+ 
+}
+input[type="email"]{
+  width: 260px;
+ font-style: italic;
+ padding: 10px;
+}
+.main-section{
+  margin-top: 100px;
+ 
+}
+.footer{
+  height: 80px;
+  background-color: #3c3d41;
+}
+.footer-content{
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  color: white;
+  padding-top: 30px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer-link{
+  color: white;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.img{
+  width: 750px;
+  margin-bottom: 30px;
+}
+.main-link{
+  color: #f8c76c;
+ text-transform: uppercase;
+ font-size: 16px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: #373737;
+  letter-spacing: 1px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.text{
+    width: 750px;
+  color: #373737;
+  text-align: left;
+  font-family: sans-serif;
+  line-height: 1.5em;
+}
+.end-of-article{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #ebebe3;
+  border-bottom: 1px solid #ebebe3;
+  width: 750px;
+  height: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.link-read{
+  color: white;
+  text-transform: uppercase;
+ 
+  
+}
+.border{
+  border: 1px solid #3c3d41;
+  background-color: #3c3d41;
+  padding-top: 15px;
+  padding-left: 10px;
+  width: 250px;
+  clip-path: polygon(88% 0, 100% 50%, 89% 100%, 0 100%, 0 0);
+}
+.link-image{
+  padding-top: 12px;
+}
+@media screen and (max-width:768px){
+main{
+    display: flex;
+    flex-direction: column; 
+}
+}
+
+
